@@ -4,10 +4,8 @@
  color: White;
 }
 
-#main_heading{
+#main_heading *{
  font-weight: bold;
- color: DarkSlateGray;
- background-color: white;
  text-align: center;
  word-spacing: 0.1em;
 }
