@@ -4,11 +4,16 @@
  color: White;
 }
 
-h1 {
- font-size: 75px;
+#main_heading{
  font-weight: bold;
- word-spacing: 0.1em;
+ color: DarkSlateGray;
+ background-color: white;
  text-align: center;
+ word-spacing: 0.1em;
+}
+
+#welcome {
+ font-size: 75px;
 }
 
 h3 {
