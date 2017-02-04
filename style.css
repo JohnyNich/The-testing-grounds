@@ -4,16 +4,23 @@
   color: White;
 }
 
+h3 {
+  font-size: 30px;
+}
+
 .heading {
   font-weight: bold;
   text-align: center;
   word-spacing: 0.1em;
 }
 
+.very-special-photos {
+	height: 50%;
+	width: 50%;
+}
+
 #welcome {
   font-size: 75px;
 }
 
-h3 {
-  font-size: 30px;
-}
+
