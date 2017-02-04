@@ -1,5 +1,9 @@
-*{
- font-family: Arial;
+* {
+ font-family: Arial, sans-serif;
  background-color: DarkSlateGray;
  color: White;
+}
+
+h1 {
+ font-size: 40px;
 }
