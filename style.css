@@ -1,4 +1,4 @@
-* {
+body {
   font-family: Arial, sans-serif;
   background-color: DarkSlateGray;
   color: White;
@@ -23,8 +23,12 @@ h3 {
   font-size: 75px;
 }
 
-#a-sepcial-place *{
+#a-sepcial-place {
 	font-family: Luminari, "Times New Roman", serif;
 }
 
-
+.quote {
+	font-style: italic;
+	font-family: "Time New Roman";
+	color: black;
+}
