@@ -27,6 +27,14 @@ h3 {
 	font-family: Luminari, "Times New Roman", serif;
 }
 
+#list_of_links {
+	font-size: 40px;
+}
+
+#list_of_links :hover {
+	color: lime;
+}
+
 .quote {
 	font-style: italic;
 	font-family: "Time New Roman";
