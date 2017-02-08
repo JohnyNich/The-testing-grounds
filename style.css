@@ -31,8 +31,23 @@ h3 {
 	font-size: 40px;
 }
 
+#list_of_links :link {
+	color: white;
+	text-decoration: none;
+}
+
+#list_of_links :visited {
+	color: white;
+	text-decoration: none
+}
+
 #list_of_links :hover {
 	color: lime;
+	font-weight: bold;
+}
+
+#list_of_links :active {
+	color: blue;
 }
 
 .quote {
