@@ -18,9 +18,11 @@ h3 {
 	height: 50%;
 	width: 50%;
 }
+
 .quote {
 	font-style: italic;
 	font-family: "Time New Roman";
+	color: black;
 }
 
 #welcome {
@@ -54,8 +56,30 @@ h3 {
 	color: blue;
 }
 
-.quote {
-	font-style: italic;
-	font-family: "Time New Roman";
-	color: black;
+#useless {
+	color: white;
+	margin: auto;
+	text-align: center;
 }
+
+#useless_button {
+	background-color: white; /* Makes button white */
+	padding-top: 50px; /* Gives it it's "space", kind of like width and height */
+	padding-bottom: 50px; /* Gives it it's "space", kind of like width and height */
+	padding-left: 75px; /* Gives it it's "space", kind of like width and height */
+	padding-right: 75px; /* Gives it it's "space", kind of like width and height */
+	cursor: pointer; /* Means that the cursor will become a pointer when hovering over the button */
+	margin: auto; /* Centers it on page */
+	color: red; /* Makes the text red */
+	font-size: 20px; /* Makes the text slightly bigger */
+	transition-duration: 0.4s;
+	border: 2px solid red;
+	-webkit-transition-duration: 0.4s;
+}
+
+#useless_button:hover {
+	background-color: red;
+	color: white;
+	font-size: 30px;
+}
+
