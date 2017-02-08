@@ -18,6 +18,10 @@ h3 {
 	height: 50%;
 	width: 50%;
 }
+.quote {
+	font-style: italic;
+	font-family: "Time New Roman";
+}
 
 #welcome {
   font-size: 75px;
