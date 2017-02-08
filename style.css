@@ -1,7 +1,11 @@
-* {
+body {
   font-family: Arial, sans-serif;
   background-color: DarkSlateGray;
   color: White;
+}
+
+h3 {
+  font-size: 30px;
 }
 
 .heading {
@@ -10,10 +14,44 @@
   word-spacing: 0.1em;
 }
 
+.very-special-photos {
+	height: 50%;
+	width: 50%;
+}
+
 #welcome {
   font-size: 75px;
 }
 
-h3 {
-  font-size: 30px;
+#a-sepcial-place {
+	font-family: Luminari, "Times New Roman", serif;
+}
+
+#list_of_links {
+	font-size: 40px;
+}
+
+#list_of_links :link {
+	color: white;
+	text-decoration: none;
+}
+
+#list_of_links :visited {
+	color: white;
+	text-decoration: none
+}
+
+#list_of_links :hover {
+	color: lime;
+	font-weight: bold;
+}
+
+#list_of_links :active {
+	color: blue;
+}
+
+.quote {
+	font-style: italic;
+	font-family: "Time New Roman";
+	color: black;
 }
