@@ -15,6 +15,10 @@ button {
 	padding-right: 75px; /* Gives it it's "space", kind of like width and height */
 	background-color: white; /* Makes button white */
 	cursor: pointer; /* Means that the cursor will become a pointer when hovering over the button */
+	font-size: 20px; /* Makes the text slightly bigger */
+	transition-duration: 0.4s; /* For transition animations */
+	-webkit-transition-duration: 0.4s; /* To support tranisition animations on Safari */
+
 }
 .heading {
   font-weight: bold;
@@ -35,6 +39,7 @@ button {
 
 .button-names {
 	text-align: center;
+	font-family: "OCR A Std";
 }
 
 .button{
@@ -74,15 +79,9 @@ button {
 	color: blue;
 }
 
-#useless {
-	
-}
 
 #useless_button {
 	color: red; /* Makes the text red */
-	font-size: 20px; /* Makes the text slightly bigger */
-	transition-duration: 0.4s; /* For transition animations */
-	-webkit-transition-duration: 0.4s; /* To support tranisition animations on Safari */
 	border: 2px solid red; /* Creates a red border */
 }
 
@@ -93,5 +92,44 @@ button {
 }
 
 #dissapearing-button {
+	color: purple;
 	border: 2px solid purple;
+}
+
+#dissapearing-button:hover {
+	color: white;
+	background-color: purple;
+}
+
+#dissapearing-button:focus {
+	opacity: 0;
+	color: blue;
+}
+
+#unclickable-button {
+	color: black;
+	border: 2px solid black;
+	cursor: not-allowed;
+}
+
+#unclickable-button:hover {
+	color: white;
+	background-color: black;
+}
+
+#duck-button {
+	color: yellow;
+	border: 2px solid yellow;
+}
+
+#duck-button:hover {
+	border: none;
+	color: yellow;
+	background-color: darkgreen;
+}
+
+/* Experimental Duck button code
+#duck-button:hover #quack:after{
+    content: "ADD";
+*/
 }
