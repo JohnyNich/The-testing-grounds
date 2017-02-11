@@ -131,5 +131,17 @@ button {
 /* Experimental Duck button code
 #duck-button:hover #quack:after{
     content: "ADD";
+}
 */
+
+#long-button {
+	color: blue;
+	border: 2px solid blue;
+}
+
+#long-button:hover {
+	color: white;
+	background-color: blue;
+	padding-right: 1000px;
+	text-align: center;
 }
