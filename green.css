@@ -1,0 +1,12 @@
+body {
+	font-family: Arial;
+	color: lime;
+}
+
+button {
+	background-color: lime;
+	color: white;
+	border: none;
+	padding: 40px;
+	font-size: 20px; ;
+}

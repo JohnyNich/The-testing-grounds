@@ -48,6 +48,22 @@ button {
 	text-align: center;
 }
 
+.subpage-names {
+	font-family: chalkduster;
+}
+
+.subpage {
+	font-size: 30px;
+	text-decoration: none;
+	color: green;
+}
+
+.subpage:visited {
+	font-size: 15px;
+	text-decoration: none;
+	color: green;
+}
+
 #welcome {
   font-size: 75px;
 }
@@ -144,4 +160,8 @@ button {
 	background-color: blue;
 	padding-right: 1000px;
 	text-align: center;
+}
+
+#green {
+	color: green;
 }
