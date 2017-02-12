@@ -1,0 +1,36 @@
+body {
+	font-family: "American Typewriter", "Times New Roman";
+	text-align: center;
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+a:visited {
+	color: blue;
+	text-decoration: none;
+}
+
+h1, h5 {
+	text-align: center;
+}
+
+h2 {
+	font-style: italic;
+	font-weight: none;
+	font-family: "American Typewriter Light", "Times New Romman";
+}
+
+#caution {
+	color: red;
+}
+
+#subtitle {
+	font-family: "American Typewriter", "Times New Roman";
+}
