@@ -8,7 +8,7 @@ h3 {
   font-size: 30px;
 }
 
-button {
+button:not(#subpage-button) {
 	padding-top: 50px; /* Gives it it's "space", kind of like width and height */
 	padding-bottom: 50px; /* Gives it it's "space", kind of like width and height */
 	padding-left: 75px; /* Gives it it's "space", kind of like width and height */
@@ -49,7 +49,7 @@ button {
 }
 
 .subpage-names {
-	font-family: chalkduster;
+	font-family: chalkduster, "Times New Roman", serif;
 }
 
 .subpage {
@@ -60,6 +60,10 @@ button {
 .subpage:visited {
 	font-size: 15px;
 	text-decoration: none;
+}
+
+.button-subpage {
+	display: inline-block;
 }
 
 #welcome {
@@ -166,4 +170,9 @@ button {
 
 #controversial {
 	color: red;
+}
+
+#subpage-button {
+	display: inline;
+	font-family: chalkduster, "Times New Roman", serif;
 }
