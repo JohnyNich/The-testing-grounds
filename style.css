@@ -176,3 +176,11 @@ button:not(#subpage-button) {
 	display: inline;
 	font-family: chalkduster, "Times New Roman", serif;
 }
+
+#stupid-section {
+	font-family: "Comic Sans MS";
+}
+
+#stupid-heading {
+	text-align: center;
+}
