@@ -8,7 +8,7 @@ h3 {
   font-size: 30px;
 }
 
-button:not(#subpage-button) {
+button:not(#subpage-button, #does-nothing) {
 	padding-top: 50px; /* Gives it it's "space", kind of like width and height */
 	padding-bottom: 50px; /* Gives it it's "space", kind of like width and height */
 	padding-left: 75px; /* Gives it it's "space", kind of like width and height */
