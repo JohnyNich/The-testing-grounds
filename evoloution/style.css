@@ -1,0 +1,19 @@
+body {
+	color: white;
+	background-color: orange;
+	font-family: "Palanquin Dark";
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+button {
+	margin: auto;
+	text-align: center;
+	display: block;
+}

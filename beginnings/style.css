@@ -1,0 +1,178 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: DarkSlateGray;
+  color: White;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+button:not(#subpage-button) {
+	padding-top: 50px; /* Gives it it's "space", kind of like width and height */
+	padding-bottom: 50px; /* Gives it it's "space", kind of like width and height */
+	padding-left: 75px; /* Gives it it's "space", kind of like width and height */
+	padding-right: 75px; /* Gives it it's "space", kind of like width and height */
+	background-color: white; /* Makes button white */
+	cursor: pointer; /* Means that the cursor will become a pointer when hovering over the button */
+	font-size: 20px; /* Makes the text slightly bigger */
+	transition-duration: 0.4s; /* For transition animations */
+	-webkit-transition-duration: 0.4s; /* To support tranisition animations on Safari */
+
+}
+.heading {
+  font-weight: bold;
+  text-align: center;
+  word-spacing: 0.1em;
+}
+
+.very-special-photos {
+	height: 50%;
+	width: 50%;
+}
+
+.quote {
+	font-style: italic;
+	font-family: "Time New Roman";
+	color: black;
+}
+
+.button-names {
+	text-align: center;
+	font-family: "OCR A Std";
+}
+
+.button{
+	color: white;
+	margin: auto;
+	text-align: center;
+}
+
+.subpage-names {
+	font-family: chalkduster, "Times New Roman", serif;
+}
+
+.subpage {
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.subpage:visited {
+	font-size: 15px;
+	text-decoration: none;
+}
+
+#welcome {
+  font-size: 75px;
+}
+
+#a-sepcial-place {
+	font-family: Luminari, "Times New Roman", serif;
+}
+
+#list_of_links {
+	font-size: 40px;
+}
+
+#list_of_links :link {
+	color: white;
+	text-decoration: none;
+}
+
+#list_of_links :visited {
+	color: white;
+	text-decoration: none
+}
+
+#list_of_links :hover {
+	color: lime;
+	font-weight: bold;
+}
+
+#list_of_links :active {
+	color: blue;
+}
+
+
+#useless_button {
+	color: red; /* Makes the text red */
+	border: 2px solid red; /* Creates a red border */
+}
+
+#useless_button:hover {
+	background-color: red;
+	color: white;
+	font-size: 30px;
+}
+
+#dissapearing-button {
+	color: purple;
+	border: 2px solid purple;
+}
+
+#dissapearing-button:hover {
+	color: white;
+	background-color: purple;
+}
+
+#dissapearing-button:focus {
+	opacity: 0;
+	color: blue;
+}
+
+#unclickable-button {
+	color: black;
+	border: 2px solid black;
+	cursor: not-allowed;
+}
+
+#unclickable-button:hover {
+	color: white;
+	background-color: black;
+}
+
+#duck-button {
+	color: yellow;
+	border: 2px solid yellow;
+}
+
+#duck-button:hover {
+	border: none;
+	color: yellow;
+	background-color: darkgreen;
+}
+
+/* Experimental Duck button code
+#duck-button:hover #quack:after{
+    content: "ADD";
+}
+*/
+
+#long-button {
+	color: blue;
+	border: 2px solid blue;
+}
+
+#long-button:hover {
+	color: white;
+	background-color: blue;
+	padding-right: 1000px;
+	text-align: center;
+}
+
+#green {
+	color: green;
+}
+
+#controversial {
+	color: red;
+}
+
+#usefull-buttons {
+	text-align: center;
+}
+
+#text-change {
+	border: 2px black;
+	color: black;
+}
