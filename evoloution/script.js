@@ -14,3 +14,16 @@ function doNotClick() {
 		window.alert("Clicking is pointless, and nothing happens when you get to 100 clicks. Current clicks: " + clicks);
 	}
 }
+
+// This is where jQuery code begins
+$(document).ready(function(){
+	$("#monster").hide();
+	$("#watermelon").click(function(){
+		$(this).effect("explode");
+		$("#misery").text("You monster, you killed him.");
+		console.log("Done");
+	});
+	$("#text-entry-submit").click(function(){ // WHen the entry button is pressed...
+		$("#text-entry-result").text($("#text-entry").val());
+	});
+});

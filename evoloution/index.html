@@ -4,9 +4,11 @@
 		<title>The Testing Grounds - Evoloution</title>
 		<link href="style.css" type="text/css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Palanquin+Dark" rel="stylesheet">
+		<!-- The following are jQuery libraries, the first is jQuery, the seccond is jQuery UI -->
+		<script type="text/javascript" src="../assets/libraries/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="../assets/libraries/jquery-ui.js"></script>
 		<script src="script.js"></script>
-		<script src="jquery-3.2.1.min.js"></script>
-	</head>
+	</head> sss sss
 	<body>
 		<h1>Section 2: Evoloution</h1>
 		<p>Note: From here on JavaScript is used</p>
@@ -15,5 +17,12 @@
 		<button id="fancy" onclick="changeText('fancy', 'Fanciness')">Click for fanciness</button>
 		<h3>Please do not click the following button</h3>
 		<button id="do-not-click" onclick="doNotClick()">Do not click</button>
+		<h3>Here we see an exploding watermelon.</h3>
+		<h3 id="misery">Click it to <span id="red">put it out of it's misery</span></h3>
+		<img src="../assets/watermelon.png" id="watermelon"/>
+		<h2>Look out! You've just discovered a wild text entry box</h2>
+		<p>Name: <input type="text" id="text-entry"></p>
+		<button id="text-entry-submit">Press button for majic</button>
+		<p id="text-entry-result"></p>
 	</body>
 </html>
