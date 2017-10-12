@@ -25,3 +25,13 @@ button {
 #red {
 	color: red;
 }
+
+#table4 {
+	margin: auto;
+	display: block;
+}
+
+.table {
+	height: 300px;
+	width: 300px;
+}
